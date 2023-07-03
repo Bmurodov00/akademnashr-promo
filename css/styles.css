@@ -16,6 +16,15 @@ body hr {
   align-items: center;
   justify-content: space-between;
 }
+.logo {
+  transition: opacity 0.4s ease;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo:active {
+  opacity: 0.6;
+}
 .nav-link{
   color: #000;
   font-size: 13px;
@@ -23,6 +32,15 @@ body hr {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: opacity 0.4s ease,
+  color 0.4s ease;
+}
+.nav-link:hover{
+  opacity: 0.8;
+  color: #ff7500;
+}
+.nav-link:active {
+  opacity: 0.6;
 }
 .header ul {
   list-style-type: none;
@@ -38,6 +56,13 @@ body hr {
   font-size: 13px;
   font-weight: 700;
   text-align: center;
+  transition: opacity 0.4s ease;
+}
+.main-button:hover{
+  opacity: 0.8;
+}
+.main-button:active {
+  opacity: 0.6;
 }
 .section-kitob-python {
   display: flex;
@@ -65,6 +90,13 @@ body hr {
   color: #fff;
   font-size: 13px;
   font-weight: 700;
+  transition: opacity 0.4s ease;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button:active{
+  opacity: 0.6;
 }
 .short-line {
   width: 80px;
@@ -140,6 +172,17 @@ main h3 {
   justify-content: space-between;
   align-items: center;
 }
+.footer-social-media svg{
+  color: #252420;
+  transition: opacity 0.4s ease, color 0.4s ease;
+}
+.footer-social-media svg:hover {
+  opacity: 0.8;
+  color: #ff7500;
+}
+.footer-social-media svg:active {
+  opacity: 0.6;
+}
 .footer-social-media ul {
   display: flex;
   justify-content: flex-end;
@@ -161,4 +204,12 @@ footer ul {
   width: 224px;
   color: #252420;
   text-decoration: none;
+  transition: opacity 0.4s ease, color 0.4s ease;
+}
+.footer-link:hover {
+  opacity: 0.8;
+  color: #ff7500;
+}
+.footer-link:active {
+  opacity: 0.6;
 }
