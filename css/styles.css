@@ -18,6 +18,9 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+.logo img {
+  display: block;
+}
 .header div {
   display: flex;
   justify-content: flex-end;
@@ -226,6 +229,7 @@ main h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 .footer-social-media ul li {
   margin-right: 16px;
@@ -236,6 +240,7 @@ main h3 {
 .footer-social-media svg{
   color: #252420;
   transition: opacity 0.4s ease, color 0.4s ease;
+  display: block;
 }
 .footer-social-media svg:hover {
   opacity: 0.8;
