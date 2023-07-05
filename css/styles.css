@@ -18,6 +18,21 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+.header div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header ul {
+  margin: 0;
+  margin-right: 32px;
+}
+.header ul li {
+  margin-right: 32px;
+}
+.header ul li:last-child {
+  margin: 0;
+}
 .logo {
   transition: opacity 0.4s ease;
 }
@@ -79,6 +94,8 @@ body {
 }
 .section-kitob-python p {
   width: 387px;
+  margin: 0;
+  margin-bottom: 32px;
 }
 .python-heading {
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
@@ -86,6 +103,8 @@ body {
   font-weight: 700;
   line-height: 1.2;
   width: 339px;
+  margin: 0;
+  margin-bottom: 24px;
 }
 .python-rasim {
   border-radius: 8px;
@@ -113,6 +132,8 @@ body {
   height: 3px;
   background-color: #ff7500;
   border: 0;
+  margin: 0;
+  margin-bottom: 40px;
 }
 .section-features {
   padding-top: 210px;
@@ -125,15 +146,21 @@ body {
   font-weight: 700;
   line-height: 1.2;
   width: 440px;
+  margin: 0;
+  margin-bottom: 72px;
 }
 .features-list {
   display: flex;
-  justify-content: space-between;
   padding: 0;
+  margin: 0;
 }
 .feature {
   list-style-type: none;
   width: 340px;
+  margin-right: 40px;
+}
+.last-feature {
+  margin: 0;
 }
 .feature-icon {
   background-color: rgba(255, 117, 0, 0.2);
@@ -177,6 +204,12 @@ main h3 {
   font-weight: 700;
   line-height: 1.2;
   width: 373px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.aksiya-text {
+  margin: 0;
+  margin-bottom: 24px;
 }
 .aksiya-highlight {
   color: #ff7500;
@@ -194,6 +227,12 @@ main h3 {
   justify-content: space-between;
   align-items: center;
 }
+.footer-social-media ul li {
+  margin-right: 16px;
+}
+.footer-social-media ul li:last-child {
+  margin-right: 0;
+}
 .footer-social-media svg{
   color: #252420;
   transition: opacity 0.4s ease, color 0.4s ease;
@@ -209,17 +248,26 @@ main h3 {
   display: flex;
   justify-content: flex-end;
   padding: 0;
+  margin: 0;
 }
 .footer-links {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
+  margin-top: 64px;
+}
+.footer-links ul {
+  margin: 0;
+  margin-right: 68px;
+}
+.footer-links ul:last-child {
+  margin-right: 0;
 }
 .site-footer-divider {
   width: 1100px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.50);
   border: 0;
+  margin: 0;
 }
 footer ul {
   list-style-type: none;
